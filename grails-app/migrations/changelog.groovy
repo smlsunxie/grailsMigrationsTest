@@ -27,4 +27,6 @@ databaseChangeLog = {
 			column(name: "name")
 		}
 	}
+
+	include file: '1.0.1.groovy'
 }
