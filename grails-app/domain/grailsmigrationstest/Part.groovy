@@ -7,9 +7,8 @@ class Part {
 
 
     static constraints = {
-        name blank: false, unique: true
-        title blank: false
-        description nullable: true, empty: true
-
+        name blank: false, unique: 'title' // 新增 PK
+        title nullable: true //原本 title blank: false
+        //description nullable: true, empty: true
     }
 }
